@@ -1,0 +1,101 @@
+body{
+    background-color: #bdc7bc;
+    font-family: 'Markazi Text', serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+
+/* Navigation */
+nav ul {
+    background-color: #495e57;
+    display: block;
+    list-style: none;
+    text-align: center;
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+
+nav li {
+    display: inline-block;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-weight:800;
+    
+}
+
+nav li a {
+    color: #f4cd39;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+/* Main */
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article {
+    flex: 1;
+    background-color: rgba(244, 205, 57, 0.8);
+    margin: 0.5rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+
+}
+
+article > img {
+    align-items: center;
+    min-width:280px;
+    border-radius: 0.3rem;
+
+}
+
+article:hover {
+    transform: scale(1.05);
+    transition: 1s;
+}
+
+
+#promo {
+    color: #edefee;
+    background-image: url("pictures/pexels-photo-1437267_edited.jpg");
+    background-color: #495e57;
+    background-size: cover;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    margin-top: 1rem;
+}
+
+footer div {
+    flex: 1;
+
+}
+
+#copyright {
+    color: #495e57;
+    text-align: end;
+    border-top: solid;
+}
